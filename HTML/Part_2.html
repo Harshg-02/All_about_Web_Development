@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      td,
+      tr,
+      th {
+        border: 2px solid;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- TABLE in html -->
+    <!--  tr tag is used for row -->
+    <!--  td tag is used for column -->
+    <!-- table is used for make the table -->
+    <!--  there is also two more tag-- theader , tfooter -->
+
+    <table>
+      <caption>
+        First table
+      </caption>
+      <thead>
+        <tr>
+          <th>subject 1</th>
+          <th>subject 2</th>
+          <th>Subject 3</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+        </tr>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Final 1</td>
+          <td>Final 2</td>
+          <td>Final 3</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- something about input tag -->
+
+    <input type="text" />
+
+    <br />
+    <input type="checkbox" />
+    <br />
+
+    <input type="radio" />
+
+    <br />
+
+    <!-- label tag is used for naming the input -->
+    <label for="Username">Username :</label>
+    <input type="text" name="Username" />
+
+    <br />
+
+    <label for="password">Password: :</label>
+    <input type="text" name="password" />
+
+    <hr />
+
+    <!-- making a form -->
+    <h1>Welcome to web World</h1>
+    <form action="you can add link here">
+      <label for="username">Username:</label>
+      <input type="text" name="username" />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" />
+      <br />
+      <input type="submit" value="submit" />
+    </form>
+
+    <!-- making a form tag  using table -->
+
+    <hr />
+
+    <h1>Welcome to Web World (Method 2)</h1>
+
+    <table>
+      <tr>
+        <td><label for="Username">Username :</label></td>
+        <td><input type="text" name="Username" /></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password: :</label></td>
+        <td><input type="text" name="password" /></td>
+      </tr>
+    </table>
+
+    <button>Submit</button>
+  </body>
+</html>
