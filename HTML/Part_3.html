@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+
+    <style>
+      table,
+      tr,
+      td {
+        border: 2px solid;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- row span , column span tag  -->
+    <!-- before span -->
+    <table>
+      <tr>
+        <td>sdf</td>
+        <td>fvad</td>
+        <td>dssdf</td>
+      </tr>
+      <tr>
+        <td>sdfs</td>
+        <td>gtr</td>
+        <td>sfda</td>
+      </tr>
+      <tr>
+        <td>dfds</td>
+        <td>wwre</td>
+        <td>ewrw</td>
+      </tr>
+      <tr>
+        <td>ewer</td>
+        <td>wegge</td>
+        <td>gaeg</td>
+      </tr>
+      <tr>
+        <td>fewef</td>
+        <td>dffwe</td>
+        <td>fwef</td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+
+    <!-- after rowspan and colspan -->
+    <table>
+      <tr>
+        <td colspan="2">sdf</td>
+
+        <td>dssdf</td>
+      </tr>
+      <tr>
+        <td>sdfs</td>
+        <td rowspan="3">gtr</td>
+        <td>sfda</td>
+      </tr>
+      <tr>
+        <td>dfds</td>
+
+        <td>ewrw</td>
+      </tr>
+      <tr>
+        <td>ewer</td>
+
+        <td>gaeg</td>
+      </tr>
+      <tr>
+        <td>fewef</td>
+        <td rowspan="2" colspan="2">dffwe</td>
+        
+      </tr>
+      <tr>
+        <td>fewef</td>
+        
+      </tr>
+    </table>
+  </body>
+</html>
