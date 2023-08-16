@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About css</title>
+
+  <!-- link to external CSS -->
+  <link rel="stylesheet" href="1_style.css">
     <style>
       p {
         color: brown;
@@ -28,6 +31,17 @@
       #first-button {
         color: red;
       }
+      button:hover{
+         color: yellow;        /* pseudo class selector */
+      }
+      table,td,tr{
+        border: 2px solid black;   /*Multiple class selctor*/
+      }
+
+    .internal{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 500;
+    }
     </style>
   </head>
   <body>
@@ -47,5 +61,21 @@
 
 
     <!-- Pseudo class selector -->
+    <!-- pseudo class is keyword that specifies a special state of the selected elements -->
+    <button>button</button>
+
+
+    <!-- Styling to HTML -->
+    <!-- 1.Inline CSS -->
+    <!-- 2.Internal CSS -->
+    <!-- 3.External CSS -->
+<br>
+<p style="font-style: italic;">this is example of Inline CSS</p>    
+<!-- above is the example of inline CSS -->
+<br>
+
+<p class="internal">This is example of Internal CSS</p>
+<br>
+<p class="external">This is external css (link of external css is in head tag)</p>
   </body>
 </html>
