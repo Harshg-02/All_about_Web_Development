@@ -1,0 +1,22 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: px;     /* it is used to make a gap between two div */
+    padding: 25px;   /* it is use for distance between border and content*/
+    margin: 20px 10px 25px ;
+
+    box-sizing: border-box;   /* if you use this then box size not increase after applying padding*/
+}
+#org{
+    background-color: orange;
+
+}
+#wht{
+    
+background-color: white;
+}
+#grn{
+    background-color: green;
+
+}
