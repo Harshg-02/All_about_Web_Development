@@ -1,0 +1,25 @@
+p
+{
+position: static;
+}
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+#box3{
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+}
+#box2{
+    /* position: absolute; */
+    /* it this postion from nearest ancestor */
+}
+#box4{
+    /* position: sticky; */
+    top: 0px;
+}
