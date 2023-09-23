@@ -1,0 +1,23 @@
+.container{
+    background-color: brown;
+    height: 500px;
+border: 3px solid black;
+display: grid;
+/* grid-template-columns: 200px 200px 200px; */
+/* grid-template-columns: 1fr 1fr 1fr */
+grid-template-columns: repeat(3,1fr);
+/* grid-template-columns: 100px repeat(2,1fr) 200px; in this first coloumn is 100px and another to of samewidth and last is 200px */
+grid-template-rows: 100px 100px 100px 100px;
+}
+.box{
+    background-color: aqua;
+    height: 80px;
+    /* width: 80px; */
+    border: 3px solid black;
+}
+
+/* grid item properties */
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
