@@ -1,0 +1,15 @@
+:root{
+    --dark-green:#945E; /*Global variable*/
+}
+.container{
+    height: calc(500px - 150px); /*function in CSS*/
+    width: 50%;
+    /* background-color: chartreuse; */
+    background-color: var(--dark-green);
+}
+.box{
+    border: 1px solid gray;
+    background-color: cadetblue;
+    --dark-red:#2092a3;   /*local variable*/
+    color: var(--dark-red);  /* calling a variable*/
+}
